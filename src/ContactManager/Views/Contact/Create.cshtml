@@ -1,0 +1,29 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model ContactManager.DataModels.Contact
+
+<h1>Create a new contact</h1>
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.LabelFor(x => x.EmailAddress)
+        @Html.TextBoxFor(x => x.EmailAddress, new { @class = "form-control" } )
+        @Html.ValidationMessageFor(x => x.EmailAddress)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.FirstName)
+        @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control" } )
+        @Html.ValidationMessageFor(x => x.FirstName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.Surname)
+        @Html.TextBoxFor(x => x.Surname, new { @class = "form-control" } )
+        @Html.ValidationMessageFor(x => x.Surname)
+    </div>
+
+    <div class="form-group">
+        <input type="submit" class="btn-primary" value="Create" />
+    </div>
+}

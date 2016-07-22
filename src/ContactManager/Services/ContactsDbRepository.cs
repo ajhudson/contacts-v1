@@ -1,6 +1,6 @@
 ﻿using ContactManager.Config;
 using ContactManager.Entities;
-using ContactManager.Models;
+using ContactManager.DataModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;

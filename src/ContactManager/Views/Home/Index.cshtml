@@ -1,7 +1,9 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model ContactManager.Models.HomeIndexModel
 
-<h3>Hello Home Index Page</h3>
+<h3>Main Menu</h3>
+
+<p>There are @Model.Count contacts in the repository.</p>
+
+<ul>
+    <li><a href='@Url.Action("Create", "Contact")'>Create contact</a></li>
+</ul>

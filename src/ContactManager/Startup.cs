@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Http;
 using ContactManager.Config;
 using ContactManager.Entities;
-using ContactManager.Models;
+using ContactManager.DataModels;
 using Microsoft.EntityFrameworkCore;
 using ContactManager.Services;
 

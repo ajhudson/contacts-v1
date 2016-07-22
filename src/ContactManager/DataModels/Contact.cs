@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ContactManager.Models
+namespace ContactManager.DataModels
 {
     public class Contact
     {
@@ -14,6 +14,7 @@ namespace ContactManager.Models
 
         [Required]
         [StringLength(50)]
+        [Display(Name = "First Name")]
         public string FirstName { get; set; }
 
         [Required]
@@ -23,6 +24,7 @@ namespace ContactManager.Models
         [Required]
         [StringLength(100)]
         [EmailAddress]
+        [Display(Name = "Email Address")]
         public string EmailAddress { get; set; }
     }
 }

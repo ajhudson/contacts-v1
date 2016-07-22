@@ -1,5 +1,5 @@
 ﻿using ContactManager.Config;
-using ContactManager.Models;
+using ContactManager.DataModels;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

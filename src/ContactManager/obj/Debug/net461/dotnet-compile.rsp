@@ -193,13 +193,15 @@ C:\PersonalDev\ContactManager\src\ContactManager\Program.cs
 C:\PersonalDev\ContactManager\src\ContactManager\Startup.cs
 C:\PersonalDev\ContactManager\src\ContactManager\Config\AppSettings.cs
 C:\PersonalDev\ContactManager\src\ContactManager\Config\IAppSettings.cs
+C:\PersonalDev\ContactManager\src\ContactManager\Controllers\ContactController.cs
 C:\PersonalDev\ContactManager\src\ContactManager\Controllers\HomeController.cs
+C:\PersonalDev\ContactManager\src\ContactManager\DataModels\Address.cs
+C:\PersonalDev\ContactManager\src\ContactManager\DataModels\Contact.cs
 C:\PersonalDev\ContactManager\src\ContactManager\Entities\ContactContext.cs
 C:\PersonalDev\ContactManager\src\ContactManager\Migrations\20160722085143_v1.cs
 C:\PersonalDev\ContactManager\src\ContactManager\Migrations\20160722085143_v1.Designer.cs
 C:\PersonalDev\ContactManager\src\ContactManager\Migrations\ContactContextModelSnapshot.cs
-C:\PersonalDev\ContactManager\src\ContactManager\Models\Address.cs
-C:\PersonalDev\ContactManager\src\ContactManager\Models\Contact.cs
+C:\PersonalDev\ContactManager\src\ContactManager\Models\HomeIndexModel.cs
 C:\PersonalDev\ContactManager\src\ContactManager\Services\ContactsDbRepository.cs
 C:\PersonalDev\ContactManager\src\ContactManager\Services\ContactsInMemoryRepository.cs
 C:\PersonalDev\ContactManager\src\ContactManager\Services\IRepository.cs
